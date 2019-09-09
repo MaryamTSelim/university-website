@@ -1,0 +1,31 @@
+.about-main {
+    float: left;
+    width: 70%;
+}
+
+.about-info-aside {
+    float: right;
+    width: 20%;
+}
+
+.container {
+    padding: 30px;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.card:first-child {
+    clear: both;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    float: left;
+    background-color: rgb(31, 31, 31);
+    margin: 10px;
+}
+
+.about-main dd {
+    padding: 20px;
+}

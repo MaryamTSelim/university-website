@@ -1,0 +1,67 @@
+.welcome {
+    color: white;
+    position: relative;
+    left: 18em;
+    top: 10em;
+    font-size: 30px;
+    width: auto;
+    margin: 0%;
+    z-index: 3;
+}
+
+.message {
+    background-color: white;
+    z-index: 3;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 70%;
+    position: relative;
+    margin: 10px auto;
+    top: 35em;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 800px;
+}
+
+.message p {
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.links {
+    width: 80%;
+    margin: auto;
+}
+
+.links div {
+    width: 30%;
+    display: inline-block;
+    margin: 15px auto;
+    margin-bottom: 150px;
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    height: 150px;
+    color: white;
+}
+
+.links div:nth-child(2) {
+    margin-left: 50px;
+}
+
+.links div:last-child {
+    float: right;
+}
+
+.links div:hover {
+    transform: scale(1.25, 1.25)
+}
+
+.links p {
+    margin-top: 70px;
+    font-weight: 700;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
